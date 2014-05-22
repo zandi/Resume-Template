@@ -1,0 +1,72 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+%% ModernCV themes
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\familydefault}{\rmdefault}
+\nopagenumbers{}
+
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+%% Personal data
+\firstname{First Name}
+\familyname{Last Name}
+%\title{Resumé} %useful? just don't have "resume" here!
+\address{ADDRESS}{CITY, STATE}
+\mobile{555.867.5309}
+%\phone{+2~(345)~678~901}
+%\fax{+3~(456)~789~012}
+\email{your.email@provider.com}
+\homepage{https://example.com/}
+%\extrainfo{Compiled \today} %useful for devs, but tacky
+%\photo[64pt][0.4pt]{picture}
+%\quote{Some quote (optional)} %quote: good or bad? I don't know
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+
+\section{Professional Experience}
+\cventry{2011--Present}{ACME LLC.}{Springfield ??}{}{}{}  % arguments 3 to 6 can be left empty
+\cvitem{}{Mobile Device Software Engineer}
+\cvlistitem{Customized cell phones}
+\cvlistitem{Reversed cellphones}
+\cvlistitem{Bricked cellphones}
+\cvlistitem{Automated cellphones}
+
+\cventry{2009--2011 2e}{Mage's Guild}{Cyrodiil}{}{}{}  % arguments 3 to 6 can be left empty
+\cvitem{}{Mage}
+\cvlistitem{Taught magic 'n stuff}
+\cvlistitem{Destruction level: 22}
+\cvlistitem{Such fire. Much burn. Wow}
+
+
+\section{Education}
+\cventry{2008--2014}{B.S. BS}{Diploma Mill \#426}{Patch of Dirt, TX}{}{}  % arguments 3 to 6 can be left empty
+\cvitem{GPA}{ \normalfont{Trade Secret} }
+\cvitem{}{ \normalfont{Recipient of multiple golden stars} }
+\cvitem{}{ \normalfont{Contributed to university president's pocketbook} }
+
+
+\section{Toolset}
+\cvitem{Languages}{\normalfont{English, Binary, Klingon}}
+\cvitem{Technologies}{Buttons, Switches, Levers}
+
+
+\section{Extracurriculars and Accomplishments}
+\cvlistitem{Up to date on immunizations}
+\cvlistitem{Can defeat Superman, if given time to plan}
+%\cvlistitem{Putnam Exam Participant. Scores: 0, 10, 0, 20}
+\cvlistitem{Time Magazine 2006 Person of the Year} %pushes us onto pg 2
+
+
+\bibliography{publications}
+\end{document}
