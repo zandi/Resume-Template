@@ -27,6 +27,9 @@
 %\photo[64pt][0.4pt]{picture}
 %\quote{Some quote (optional)} %quote: good or bad? I don't know
 
+% ugly hack to fix non-centered bullets when compiling with LuaTeX or XeTeX
+\renewcommand*{\labelitemi}{\strut\textcolor{color1}{\fontfamily{mvs}\fontencoding{U}\fontseries{m}\fontshape{n}\selectfont\char123}}
+
 %%------------------------------------------------------------------------------
 %% Content
 %%------------------------------------------------------------------------------
