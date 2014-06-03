@@ -1,4 +1,4 @@
-all: resume.pdf
+all: resume.pdf resume.png
 
 resume.pdf: resume.tex
 	lualatex resume.tex
