@@ -13,9 +13,15 @@ Building
 
 To compile your resume, simply do the following:
 ```
-pdflatex resume.tex
+lualatex resume.tex
 ```
 This will compile the resume, saving it as **resume.pdf**
+
+You may also compile with the **xelatex** or **pdflatex**
+commands. **xelatex** seems to have a harder time finding
+font awesome, so you may need to install that to your system.
+**pdflatex** cannot load this font, and falls back to 'marvosym', 
+which I personally think has worse homepage/phone/github icons.
 
 If you are using some other sort of GUI/WYSIWYG editor,
 sorry but I'll assume you know how to compile using that.
