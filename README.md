@@ -3,6 +3,8 @@ Resume-Template
 
 A simple but nice resume template in LaTeX using ModernCV.
 
+![A clean yet expressive resume](/../screenshot/resume.png?raw=true )
+
 Feel free to use this as an example of using ModernCV, or
 as a template for your own resume. Some commands aren't used,
 as I couldn't find a nice way to use them in my own resume 
