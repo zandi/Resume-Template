@@ -13,6 +13,10 @@ Building
 
 To compile your resume, simply do the following:
 ```
+make
+```
+Which, essentially does
+```
 lualatex resume.tex
 ```
 This will compile the resume, saving it as **resume.pdf**
