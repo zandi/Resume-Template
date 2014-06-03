@@ -23,11 +23,14 @@
 %\fax{+3~(456)~789~012}
 \email{your.email@provider.com}
 \homepage{https://example.com/}
+\social[github]{linus}
 %\extrainfo{Compiled \today} %useful for devs, but tacky
 %\photo[64pt][0.4pt]{picture}
 %\quote{Some quote (optional)} %quote: good or bad? I don't know
 
 % ugly hack to fix non-centered bullets when compiling with LuaTeX or XeTeX
+% This has to do with which fonts either support (pdflatex vs. lualatex/xetex)
+% lualatex/xelatex have access to MUCH nicer web/phone/github icons!!!
 \renewcommand*{\labelitemi}{\strut\textcolor{color1}{\fontfamily{mvs}\fontencoding{U}\fontseries{m}\fontshape{n}\selectfont\char123}}
 
 %%------------------------------------------------------------------------------
@@ -42,8 +45,8 @@
 \cvitem{}{Mobile Device Software Engineer}
 \cvlistitem{Customized cell phones}
 \cvlistitem{Reversed cellphones}
-\cvlistitem{Bricked cellphones}
 \cvlistitem{Automated cellphones}
+\cvlistitem{Bricked cellphones}
 
 \cventry{2009--2011 2e}{Mage's Guild}{Cyrodiil}{}{}{}  % arguments 3 to 6 can be left empty
 \cvitem{}{Mage}
